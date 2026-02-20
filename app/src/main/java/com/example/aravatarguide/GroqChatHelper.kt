@@ -16,7 +16,7 @@ class GroqChatHelper(private val apiKey: String) {
 
     companion object {
         private const val TAG = "GroqChatHelper"
-        private const val API_URL = "https://api.groq.com/openai/v1/chat/completions"
+        private const val API_URL = "Add your API Key"
         private const val MODEL = "llama-3.3-70b-versatile"
         private const val MAX_HISTORY = 20 // Keep last 20 messages for context
     }
